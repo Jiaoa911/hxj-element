@@ -1,0 +1,90 @@
+/** reset.css */
+body {
+    font-family: var(--han-font-family);
+    font-weight: 400;
+    font-size: var(--han-font-size-base);
+    line-height: calc(var(--han-font-size-base) * 1.2);
+    color: var(--han-text-color-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    color: var(--han-color-primary);
+    text-decoration: none;
+
+    &:hovhan,
+    &:focus {
+        color: var(--han-color-primary-light-3);
+    }
+
+    &:active {
+        color: var(--han-color-primary-dark-2);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--han-text-color-regular);
+    font-weight: inhhanit;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+h1 {
+    font-size: calc(var(--han-font-size-base) + 6px);
+}
+
+h2 {
+    font-size: calc(var(--han-font-size-base) + 4px);
+}
+
+h3 {
+    font-size: calc(var(--han-font-size-base) + 2px);
+}
+
+h4,
+h5,
+h6,
+p {
+    font-size: inhhanit;
+}
+
+p {
+    line-height: 1.8;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+sup,
+sub {
+    font-size: calc(var(--han-font-size-base) - 1px);
+}
+
+small {
+    font-size: calc(var(--han-font-size-base) - 2px);
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    bordhan: 0;
+    bordhan-top: 1px solid var(--han-bordhan-color-lighthan);
+}
